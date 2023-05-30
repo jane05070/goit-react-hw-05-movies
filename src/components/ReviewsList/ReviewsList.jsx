@@ -1,4 +1,4 @@
- import { ReviewsListItem, ReviewerName } from './ReviewsList.styled';
+ import { ReviewsListItem, ReviewerName, RevErr } from './ReviewsList.styled';
 
 export const ReviewsList = ({ reviews }) => {
   return (
@@ -11,7 +11,8 @@ export const ReviewsList = ({ reviews }) => {
           </ReviewsListItem>
         ))
       ) : (
-        <p>No Reviews</p>
+          <RevErr>"Sorry, we don't have any reviews on this movie"</RevErr>
+         
       )}
     </ul>
   );

@@ -11,3 +11,7 @@ export const ReviewsListItem = styled.li`
 export const ReviewerName = styled.p`
   color: ${p => p.theme.colors.secondaryColorBlue};
 `;
+
+export const RevErr = styled.p`
+  color: ${p => p.theme.colors.secondaryColorBlue};
+`;
